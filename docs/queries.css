@@ -1,0 +1,103 @@
+@media(min-width: 700px) {
+    
+    .nav-toggle { display: none; }
+    
+    nav .row,
+    .nav__block,
+    .nav__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav__list li {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    
+    .nav__list + .nav__list { margin-left: 3em; }
+    
+    .nav__item + .nav__item { margin-left: 2em; }
+    
+    .nav__list-secondary { margin-top: 0; }
+    
+    .card__block.row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .card { width: 32%; }
+    
+    footer { text-align: left; }
+    
+    footer h3 {
+        font-size: 3.25rem;
+        text-align: center;
+    }
+    
+    footer .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .f-col-1 { width: 40%; }
+    
+    .f-col { 
+        margin-top: 0;
+        width: 15%;
+    }
+}
+
+
+@media(min-width: 1000px) {
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hero__content {
+        text-align: left;
+        align-items: flex-end;
+        padding: 3em 0;
+    }
+    
+    .hero__content .one-col-1 { width: 50%; }
+    
+    .hero__content .two-col-2 { width: 45%; }
+    
+    .hero__content p { margin: -10.7em 0 1.5em; }
+    
+    h1 { font-size: 5.625rem; }
+    
+    .card__block.row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .card {
+        width: 100%;
+        margin-top: 1em;
+    }
+    
+    .difficulty .one-col-1 { text-align: left; }
+    
+    .one-col-1 { width: 55%; }
+    
+    .two-col-2 { width: 35%; }
+    
+    .learn__btn { 
+        margin: 0;
+        padding: .3em 2em;
+    }
+    
+    .features { padding: 5em 0; }
+    
+    .features .col { width: 30%; }
+    
+    .feat-col + .feat-col { margin-top: 0; }
+
+}
